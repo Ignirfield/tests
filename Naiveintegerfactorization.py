@@ -18,7 +18,7 @@ def factorization(A):
     else:
         
         for i in range(2,(A//2)+1):
-            for k in range(1,10):
+            for k in range(1,100):
             
                 if A%(i**k)==0 and isprime(i)==True:
                     L.append((i,k)) 
